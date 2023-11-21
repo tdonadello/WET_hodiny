@@ -1,0 +1,35 @@
+.black {
+    display: inline-block;
+    background-color: black;
+    height: 270px;
+    width: 100px;
+    margin: 5px;
+    padding: auto;
+}
+.red {
+    display: inline-block;
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 50%;
+    padding: auto;
+}
+.orange {
+    display: inline-block;
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 50%;
+    padding: auto;
+}
+.green {
+    display: inline-block;
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 50%;
+    padding: auto;
+}

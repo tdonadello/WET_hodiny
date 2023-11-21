@@ -1,0 +1,28 @@
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Array</title>
+    </head>
+    <body>
+        <h1>Přidej hardwarový komponent</h1>
+        <input type="text" id="input" />
+        <button id="tlacitko">Klik</button>
+
+        <script>
+            let input = document.querySelector("#input")
+            let tlacitko = document.querySelector("#tlacitko")
+            let vysledek = document.querySelector("#")
+
+            const starWars = ["Darth Vader", "Luke Skywalker", "Obi-Wan Kenobi"]
+            starWars.push("Chewie", "Yoda", "Ewok", "Princess Leia")
+            starWars.pop() // pop odebírá původní hodnotu z arrays
+            starWars.shift() // shift odebírá první hodnotu z arrays
+            starWars.splice() // od jakého indexu, kolik hodnot chcete odebrat
+            for (let i = 0; i < starWars.length; i++) {
+                console.log(starWars[i])
+            }
+        </script>
+    </body>
+</html>

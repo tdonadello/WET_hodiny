@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.tabule {
+    background-color: green;
+    color: white;
+    display: block;
+    border: 10px solid rgb(165, 108, 42);
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    font-family: caveat;
+    position: relative;
+}
+.bart {
+    padding-left: 200px;
+    top: -130px;
+    height: 200px;
+    width: auto;
+    position: relative;
+}
